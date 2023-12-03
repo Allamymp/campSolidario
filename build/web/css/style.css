@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sideBar {
+    width: 120px;
+    background: #222;
+    height: 100%;
+    z-index: 1;
+    overflow: auto;
+    position: fixed;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+body {
+    color: #fff;
+    background-color: #000;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 100px;
+
+}
+
+.sideBarIcons {
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+}
+
+nav {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.sideBarLogo {
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.homeHeader {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.homeHeader h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 80px;
+}
+
+.homeHeader p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+
+}
+.formContainer{
+    width: 400px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans serif;
+}
+.formContainer h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 100px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+    background-color: #000;
+    font-family: 'Poppins', sans serif;
+    color:white;
+    margin-bottom: 20px;
+}
+select, option{
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+    background-color: #000;
+    font-family: 'Poppins', sans serif;  
+    color: grey;
+}
+#submitButton{
+
+    border-radius: 10px;
+    height:30px;
+    color: white;
+    margin-top: 100px;
+    background-color: #000;
+    font-family: 'Poppins', sans serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
